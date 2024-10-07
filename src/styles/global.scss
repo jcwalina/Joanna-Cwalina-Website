@@ -1,0 +1,29 @@
+$braun: #836a44;
+$cream: #cdad7d;
+$gold: #afaf56;
+$h2-color: #a49174;
+
+@mixin backgroundImg($url) {
+  position: relative;
+  background: $url;
+  background-blend-mode: overlay;
+  height: 100vh;
+  text-align: center;
+}
+
+@mixin symbol {
+  position: absolute;
+  transform: translateX(-50%);
+  max-width: 40%;
+  z-index: 1;
+  max-height: 95%;
+  opacity: 0.6;
+}
+
+@mixin gradient {
+  background: linear-gradient(to right, $braun, $cream, $braun);
+  -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

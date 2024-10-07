@@ -1,0 +1,97 @@
+@import "global";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+.header {
+  @include backgroundImg(
+    (url("../imgs/me-left.jpg") center/cover no-repeat, rgba(#131e3d, 0.82))
+  );
+  display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  opacity: 0.92;
+  padding: 20px;
+
+  @media (max-width: 480px) {
+    height: 70vh;
+  }
+
+  .header-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    z-index: 2;
+  }
+
+  .header-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    z-index: 2;
+
+    ::after {
+      border-top-color: #c5b28f !important;
+    }
+  }
+
+  .header-content {
+    padding-left: 10vw;
+    // padding: 0 20px;
+
+    @media (max-width: 850px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 480px) {
+      // padding-left: auto;
+      text-align: center;
+      padding: 0 5px;
+    }
+  }
+
+  .header-title {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 8vh;
+    z-index: 2;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, $braun, $cream, $braun);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    @media (max-width: 768px) {
+      font-size: 6vh;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 4vh;
+    }
+  }
+
+  .header-subtitle {
+    color: white;
+    font-size: 3vh;
+    font-weight: 700;
+    margin-top: 11px;
+    z-index: 2;
+    letter-spacing: 3px;
+
+    @media (max-width: 768px) {
+      font-size: 2.5vh;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 2vh;
+    }
+  }
+}

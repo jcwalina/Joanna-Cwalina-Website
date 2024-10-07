@@ -1,0 +1,40 @@
+@import "global";
+
+.kundenfeedback {
+  @include backgroundImg((url("../imgs/feedback.png") center/cover no-repeat));
+  overflow-y: scroll;
+  height: auto;
+
+  .card {
+    width: 300px;
+    margin: 15px 20px;
+    background-color: transparent;
+    border: 2px solid $cream;
+    border-radius: 7px;
+    padding: 1rem;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    .card-body {
+      max-height: 50vh; // Adjust height as necessary
+      overflow-y: auto;
+      color: white;
+
+      scrollbar-width: thin;
+    }
+
+    footer {
+      color: $cream;
+      font-style: italic;
+      margin-top: 1rem;
+      font-family: "Libre Baskerville", serif;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(
+      1
+    ); // Makes the default white controls visible on dark background
+  }
+}

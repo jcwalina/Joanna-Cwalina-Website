@@ -1,0 +1,71 @@
+@import "global";
+
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f1ec;
+
+  //scrollbar
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(255, 255, 255, 0.123) transparent;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  @include gradient();
+}
+
+.backgroundImg {
+  position: relative;
+  background: url("../imgs/me-left.jpg") center/cover no-repeat,
+    rgba(#131e3d, 0.82);
+  background-blend-mode: overlay;
+  height: 100vh;
+  text-align: center;
+  opacity: 0.97;
+}
+
+.extend {
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.extend:hover {
+  transform: scale(1.05);
+}
+
+.shadow {
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.3);
+}

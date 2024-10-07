@@ -1,0 +1,51 @@
+{
+  "start_healing": "Rozpocznij ze mną swoją podróż uzdrawiającą",
+  "book_free_consultation": "Umów się na darmową konsultację",
+  "link_consultation": "https://calendly.com/joannacwalina/free-consultation",
+  "services_title": "Jesteś we właściwym miejscu, jeśli chcesz...",
+  "services": [
+    "uzdrowić swój emocjonalny ból",
+    "potrzebujesz wsparcia w radzeniu sobie z chorobami",
+    "uwolnić fizyczne i mentalne blokady",
+    "jesteś gotowy, aby uwolnić się od przeszłości",
+    "poczuć swoją prawdziwą moc",
+    "chcesz aktywować swoje naturalne zdolności uzdrawiające",
+    "szukasz głębszego połączenia ze sobą",
+    "chcesz żyć szczęśliwiej i lżej"
+  ],
+  "services_subtitle": "...wszystko to możesz uzdrowić terapią energetyczną",
+  "what_healing_session": "Czym jest terapia energetyczna?",
+  "healing_session_description": "Terapia energetyczna to holistyczna praktyka, która harmonizuje i wzmacnia przepływ energii w Twoim ciele za pomocą uzdrawiających częstotliwości. Dzięki delikatnemu dotykowi lub nawet bez bezpośredniego kontaktu identyfikowane i rozwiązywane są blokady energetyczne. Ta cudowna metoda wspiera Twoje fizyczne, emocjonalne, mentalne i duchowe samopoczucie, aktywując Twoje naturalne zdolności uzdrawiające i przywracając równowagę w Twoim systemie energetycznym.",
+  "energy_session_titel": "1:1  Terapia uzdrawiająca",
+  "energy_session_description": "Podczas naszej współpracy zapraszam Cię do doświadczenia terapii energetycznych, coachingu oraz pracy z wewnętrznym dzieckiem. Każda sesja jest unikalna i można intuicyjnie zdecydować, czy w centrum uwagi ma być coaching, praca z energią, czy oba elementy. W naszej wspólnej podróży uzdrawiającej możesz poczuć boską energię w obfitości. Dostosowuję się do bieżących potrzeb Twojego ciała i kanalizuję dokładnie to, co w danym momencie jest najbardziej potrzebne, aby rozwiązać blokady energetyczne i wspierać głębokie uzdrowienie.",
+  "energy_session_price": "Cena:",
+  "energy_session_duration": "75 Euro / 1,5 godziny",
+  "energy_session_location": "Miejsce:",
+  "book_session_button": "Umów się na terapię uzdrawiającą",
+  "link_session": "https://calendly.com/joannacwalina/energy-healing-session",
+  "about_me": "O mnie",
+  "about_me_description": "Cześć, jestem Joanna - uzdrowicielka, która sama odnalazła swoje uzdrowienie w pracy z energią. Po tym, jak sama ciężko zachorowałam, a medycyna konwencjonalna nie mogła mi pomóc, zaczęłam badać alternatywne metody uzdrawiania. Wśród wielu różnych podejść odkryłam swoją głęboką miłość do pracy z energią. Ta transformująca metoda całkowicie zmieniła moje życie i doprowadziła do mojego uzdrowienia. Po roku intensywnego uczenia się i osobistego praktykowania, moi duchowi przewodnicy zachęcili mnie do dzielenia się moim darem z innymi. Praca z energią stała się moim stylem życiowym, który polecam każdemu, kto chce zakochać się w swoim życiu.",
+  "quote": "“Otwórz się na cuda życia i odkryj transformującą moc pracy z energią.”",
+  "additional_offers": "Inne oferty:",
+  "other_services_list": [
+    "Terapia zdalna",
+    "Praca z wewnętrznym dzieckiem",
+    "Channeling",
+    "Oczyszczanie energetyczne ludzi, przedmiotów i przestrzeni",
+    "Otwarcie trzeciego oka",
+    "Ochrona",
+    "Ukojenie na każdym poziomie",
+    "Grupowa podróż uzdrawiająca"
+  ],
+  "pricing": {
+    "coaching": "Coaching (praca z wewnętrznym dzieckiem):",
+    "coachingPrice": "55 Euro / 1 godzina",
+    "clearing": "Oczyszczanie:",
+    "clearingPrice": "35 Euro"
+  },
+  "contact": "Kontakt",
+  "footer_contact_me": "Jeśli chcesz umówić się na sesję uzdrawiającą lub masz dodatkowe pytania, możesz się ze mną skontaktować lub bezpośrednio zarezerwować sesję przez link do kalendarza:",
+  "calendar_link": "Link do kalendarza",
+  "imprint": "Impressum",
+  "privacy_policy": "Polityka prywatności"
+}

@@ -1,0 +1,149 @@
+@import "global";
+
+.footer {
+  color: #6b5a5a;
+  padding: 1rem 0;
+  position: relative;
+
+  .container {
+    // max-width: 1140px;
+    margin: auto;
+  }
+
+  .contact-info {
+    h5 {
+      margin-bottom: 1rem;
+      color: #6b5a5a;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+
+        i {
+          margin-right: 0.5rem;
+          // color: #d4a373;
+          font-size: 1.2rem;
+
+          @include gradient();
+        }
+
+        a {
+          color: #6b5a5a;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .booking-link {
+    // font-weight: 600;
+    z-index: 5;
+
+    p {
+      margin-bottom: 1rem;
+      color: #6b5a5a;
+    }
+
+    a {
+      text-decoration: none;
+      color: #6b5a5a;
+      font-weight: bold;
+
+      i {
+        @include gradient();
+        margin-right: 0.5rem;
+
+        font-size: 1.2rem;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .footer-credits {
+    text-align: right;
+    color: #6b5a5a;
+
+    p {
+      margin: 0 0;
+
+      a {
+        color: $braun;
+        text-decoration: none;
+        margin: 0 5px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .heart {
+        color: #e25555;
+      }
+    }
+  }
+
+  .footer-logo {
+    max-width: 60px;
+    margin-right: 10px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  &::before {
+    bottom: 0%;
+    right: 0%;
+    width: 400px; // Adjust size as needed
+    height: 400px; // Adjust size as needed
+    background-image: url("../imgs/crystalFooter.png");
+    z-index: -1;
+  }
+
+  @media (max-width: 996px) {
+    .footer-credits p {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .contact-info,
+    .booking-link,
+    .logo-and-rights {
+      text-align: center;
+      margin-bottom: 2rem;
+
+      .footer-credits {
+        text-align: center;
+      }
+
+      .footer-crystal {
+        float: none;
+        margin: 0 auto 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1149px) {
+  .logo-footer {
+    display: none !important;
+  }
+}
