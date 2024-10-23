@@ -16,11 +16,6 @@
 
 You can visit my life coaching website [here](https://joannacwalina.com).
 
-## Screenshot
-
-![Joanna Cwalina Life Coach Website](https://i.imghippo.com/files/Pjaj5120vyU.png)
-_A calming, professional website designed to guide individuals toward personal growth and balance._
-
 ## Technologies Used
 
 - **React**: Used to create a smooth and dynamic user interface that enhances the user experience.
